@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional batch website for the IEM B.Tech Electrical Engineering 2022-2026 class, built around six group photos."
+    />
+    <title>IEM Electrical 2022-2026 | Batch Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Sora:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="#top">
+          <span class="brand__mark">
+            <img
+              class="brand__logo"
+              src="iem-logo.jpeg"
+              alt="IEM Institute of Engineering and Management logo"
+            />
+          </span>
+          <span class="brand__text">
+            <strong>IEM Electrical</strong>
+            <small>B.Tech Electrical Engineering | Batch 2022-2026</small>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#story">Story</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#signature">Batch Identity</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero reveal" id="top">
+        <div class="hero__copy">
+          <p class="eyebrow">Institute Of Engineering &amp; Management</p>
+          <div class="hero__identity" aria-label="Batch identity">
+            <span>IEM</span>
+            <span>Electrical Engineering</span>
+            <span>2022-2026 Batch</span>
+          </div>
+          <h1>The Electrical Engineering batch of 2022-2026, presented with a polished digital identity.</h1>
+          <p class="hero__text">
+            A professional one-page showcase for IEM, turning your original
+            group photos into a refined batch website with class portraits,
+            sports moments, campus memories, and celebration frames.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#gallery">View Batch Gallery</a>
+            <button
+              class="button button--ghost"
+              type="button"
+              data-modal-index="0"
+            >
+              Open Hero Frame
+            </button>
+          </div>
+
+          <div class="hero__facts">
+            <article>
+              <strong>6</strong>
+              <span>original photos</span>
+            </article>
+            <article>
+              <strong>B.Tech</strong>
+              <span>Electrical Engineering</span>
+            </article>
+            <article>
+              <strong>2022-2026</strong>
+              <span>batch identity</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero__stage">
+          <button
+            class="hero-photo hero-photo--main"
+            type="button"
+            data-modal-index="0"
+            aria-label="Open football ground photo"
+          >
+            <img
+              src="IMG-20240724-WA0015.jpg"
+              alt="Group photo on a football ground"
+              fetchpriority="high"
+            />
+            <span class="photo-chip">
+              <strong>Match Day Energy</strong>
+              <small>click to view full size</small>
+            </span>
+          </button>
+
+          <button
+            class="hero-photo hero-photo--stack"
+            type="button"
+            data-modal-index="1"
+            aria-label="Open uniform group photo"
+          >
+            <img
+              src="IMG-20250508-WA0022.jpg"
+              alt="Large uniform group photo"
+            />
+          </button>
+
+          <article class="hero-note">
+            <p class="eyebrow eyebrow--dark">Batch Branding</p>
+            <h2>Official logo, clear identity, and a presentation that feels polished.</h2>
+            <p>
+              Built around the IEM B.Tech Electrical Engineering batch of
+              2022-2026, this layout blends creative storytelling with a more
+              formal, college-ready presentation.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="story reveal" id="story">
+        <div class="section-heading">
+          <p class="eyebrow">Batch Chapters</p>
+          <h2>Each frame reflects a different side of the Electrical Engineering journey.</h2>
+        </div>
+
+        <div class="story-grid">
+          <article
+            class="story-card"
+            style="--card-image: url('IMG-20250508-WA0022.jpg');"
+          >
+            <span class="story-card__number">01</span>
+            <div class="story-card__content">
+              <h3>Uniform Days</h3>
+              <p>
+                Formal dress, full attendance, packed frames, and the kind of
+                classic group photo that instantly feels nostalgic.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="story-card"
+            style="--card-image: url('IMG-20251128-WA0026.jpg');"
+          >
+            <span class="story-card__number">02</span>
+            <div class="story-card__content">
+              <h3>Playground Sessions</h3>
+              <p>
+                Open courts, team poses, quick smiles, and the relaxed energy
+                that makes group pictures feel alive instead of staged.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="story-card"
+            style="--card-image: url('IMG-20260402-WA0021.jpg');"
+          >
+            <span class="story-card__number">03</span>
+            <div class="story-card__content">
+              <h3>Celebration Night</h3>
+              <p>
+                Festival clothing, bright expressions, and a more cinematic mood
+                that gives the whole collection range and texture.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery reveal" id="gallery">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">Batch Gallery</p>
+            <h2>A curated layout for the IEM Electrical 2022-2026 collection.</h2>
+          </div>
+          <p class="section-heading__text">
+            From formal class portraits to sports and celebration moments, each
+            image is presented as part of one consistent batch story.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-card gallery-card--wide">
+            <button
+              class="gallery-card__button"
+              type="button"
+              data-modal-index="0"
+              aria-label="Open Football Ground Session"
+            >
+              <img
+                src="IMG-20240724-WA0015.jpg"
+                alt="Football ground group photo"
+                loading="lazy"
+              />
+              <span class="gallery-card__meta">
+                <span class="gallery-card__index">01</span>
+                <span class="gallery-card__label">
+                  <strong>Football Ground Session</strong>
+                  <small>wide opening frame</small>
+                </span>
+              </span>
+            </button>
+          </figure>
+
+          <figure class="gallery-card gallery-card--tall">
+            <button
+              class="gallery-card__button"
+              type="button"
+              data-modal-index="1"
+              aria-label="Open Uniform Circle"
+            >
+              <img
+                src="IMG-20250508-WA0022.jpg"
+                alt="Uniform group portrait"
+                loading="lazy"
+              />
+              <span class="gallery-card__meta">
+                <span class="gallery-card__index">02</span>
+                <span class="gallery-card__label">
+                  <strong>Uniform Circle</strong>
+                  <small>crowded, close, energetic</small>
+                </span>
+              </span>
+            </button>
+          </figure>
+
+          <figure class="gallery-card gallery-card--portrait">
+            <button
+              class="gallery-card__button"
+              type="button"
+              data-modal-index="2"
+              aria-label="Open Campus Crowd"
+            >
+              <img
+                src="IMG-20250508-WA0089.jpg"
+                alt="Another large uniform group portrait"
+                loading="lazy"
+              />
+              <span class="gallery-card__meta">
+                <span class="gallery-card__index">03</span>
+                <span class="gallery-card__label">
+                  <strong>Campus Crowd</strong>
+                  <small>portrait composition</small>
+                </span>
+              </span>
+            </button>
+          </figure>
+
+          <figure class="gallery-card gallery-card--landscape">
+            <button
+              class="gallery-card__button"
+              type="button"
+              data-modal-index="3"
+              aria-label="Open Court Lineup"
+            >
+              <img
+                src="IMG-20251128-WA0026.jpg"
+                alt="Group photo on a basketball court"
+                loading="lazy"
+              />
+              <span class="gallery-card__meta">
+                <span class="gallery-card__index">04</span>
+                <span class="gallery-card__label">
+                  <strong>Court Lineup</strong>
+                  <small>casual team mood</small>
+                </span>
+              </span>
+            </button>
+          </figure>
+
+          <figure class="gallery-card gallery-card--square">
+            <button
+              class="gallery-card__button"
+              type="button"
+              data-modal-index="4"
+              aria-label="Open Festival Night"
+            >
+              <img
+                src="IMG-20260402-WA0021.jpg"
+                alt="Group photo during a celebration"
+                loading="lazy"
+              />
+              <span class="gallery-card__meta">
+                <span class="gallery-card__index">05</span>
+                <span class="gallery-card__label">
+                  <strong>Festival Night</strong>
+                  <small>more dress, more drama</small>
+                </span>
+              </span>
+            </button>
+          </figure>
+
+          <figure class="gallery-card gallery-card--banner">
+            <button
+              class="gallery-card__button"
+              type="button"
+              data-modal-index="5"
+              aria-label="Open Official Portrait"
+            >
+              <img
+                src="IMG-20260406-WA0022.jpg"
+                alt="Official large group portrait"
+                loading="lazy"
+              />
+              <span class="gallery-card__meta">
+                <span class="gallery-card__index">06</span>
+                <span class="gallery-card__label">
+                  <strong>Official Portrait</strong>
+                  <small>final full-crew frame</small>
+                </span>
+              </span>
+            </button>
+          </figure>
+        </div>
+      </section>
+
+      <section class="signature reveal" id="signature">
+        <div class="signature__panel">
+          <p class="eyebrow">Batch Identity</p>
+          <div class="signature__brand">
+            <div class="signature__seal">
+              <img
+                src="iem-logo.jpeg"
+                alt="IEM Institute of Engineering and Management logo"
+              />
+            </div>
+            <div class="signature__info">
+              <p>Institute of Engineering &amp; Management</p>
+              <h3>B.Tech Electrical Engineering</h3>
+              <span>Batch 2022-2026</span>
+            </div>
+          </div>
+          <h2>An official-looking batch website with a creative finish.</h2>
+          <p>
+            This final section grounds the page with your college logo,
+            department, and batch information so the site feels personal,
+            professional, and clearly owned by your class.
+          </p>
+
+          <div class="signature__tags" aria-label="Website features">
+            <span>IEM</span>
+            <span>B.Tech</span>
+            <span>Electrical Engineering</span>
+            <span>2022-2026</span>
+          </div>
+
+          <a class="button button--primary" href="#top">Back To Top</a>
+
+          <div class="site-credit" aria-label="Website credit">
+            <div class="site-credit__inner">
+              <img
+                class="site-credit__photo"
+                src="atanu-credit.jpeg"
+                alt="Portrait of Atanu Middya"
+              />
+              <div class="site-credit__text">
+                <p class="site-credit__label">Credit</p>
+                <h3>Made by Atanu Middya</h3>
+                <p>
+                  A side project created to present the IEM B.Tech Electrical
+                  Engineering 2022-2026 batch in a professional and creative
+                  way.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <audio id="background-audio" preload="auto" autoplay playsinline loop>
+      <source src="woh-din.mp3" type="audio/mpeg" />
+    </audio>
+
+    <aside
+      class="music-dock"
+      data-audio-state="idle"
+      data-expanded="false"
+      aria-label="Background music player"
+    >
+      <button
+        class="music-dock__tab"
+        id="music-dock-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="music-dock-panel"
+      >
+        <span class="music-dock__pulse music-dock__pulse--tab" aria-hidden="true"></span>
+        <span class="music-dock__tab-text">Music</span>
+      </button>
+
+      <div class="music-dock__panel" id="music-dock-panel">
+        <div class="music-dock__top">
+          <div class="music-dock__pulse" aria-hidden="true"></div>
+          <div class="music-dock__copy">
+            <p class="music-dock__label">Background Music</p>
+            <h3>Woh Din</h3>
+            <span>Arijit Singh | Chhichhore</span>
+          </div>
+        </div>
+
+        <div class="music-dock__actions">
+          <button class="music-dock__button" id="audio-toggle" type="button">
+            Play
+          </button>
+          <button
+            class="music-dock__button music-dock__button--ghost"
+            id="audio-mute"
+            type="button"
+          >
+            Mute
+          </button>
+        </div>
+
+        <p class="music-dock__hint" id="audio-hint">
+          Music plays automatically when the website opens.
+        </p>
+      </div>
+    </aside>
+
+    <div class="lightbox" aria-hidden="true">
+      <button
+        class="lightbox__backdrop"
+        type="button"
+        aria-label="Close image viewer"
+        data-close
+      ></button>
+
+      <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+        <button
+          class="lightbox__close"
+          type="button"
+          aria-label="Close image viewer"
+          data-close
+        >
+          ×
+        </button>
+
+        <button
+          class="lightbox__nav lightbox__nav--prev"
+          type="button"
+          aria-label="Previous image"
+          data-step="-1"
+        >
+          ‹
+        </button>
+
+        <figure class="lightbox__figure">
+          <img id="lightbox-image" src="" alt="" />
+          <figcaption class="lightbox__caption">
+            <p class="lightbox__counter" id="lightbox-counter"></p>
+            <h3 id="lightbox-title"></h3>
+            <p id="lightbox-text"></p>
+          </figcaption>
+        </figure>
+
+        <button
+          class="lightbox__nav lightbox__nav--next"
+          type="button"
+          aria-label="Next image"
+          data-step="1"
+        >
+          ›
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
